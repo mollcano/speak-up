@@ -4,6 +4,7 @@
   text-align: center !important;
 }
 .personal-stats{
+  height: 220px;
   border: 2px solid black;
 }
 .stats-cont{
