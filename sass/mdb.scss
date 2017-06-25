@@ -19,7 +19,7 @@
  *
  * Support: http://mdbootstrap.com/forums/forum/support/
  *
- * Contact: office@mdbootstrap.com 
+ * Contact: office@mdbootstrap.com
  *
  * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
  *
@@ -41,7 +41,7 @@
 //Global
 @import "mdb/free/global";
 
-// MDB Free  
+// MDB Free
 @import "mdb/free/roboto";
 @import "mdb/free/typography";
 @import "mdb/free/animations";
@@ -77,12 +77,12 @@
 @import "mdb/pro/animations-pro";
 @import "mdb/pro/scrollbar";
 @import "mdb/pro/ecommerce";
-@import "mdb/pro/skins"; 
+@import "mdb/pro/skins";
 @import "mdb/pro/chips";
 @import "mdb/pro/parallax";
 @import "mdb/pro/stepper";
 
-// DATE & TIME PICKERS 
+// DATE & TIME PICKERS
 @import "mdb/pro/date_picker/default";
 @import "mdb/pro/date_picker/default.date";
 @import "mdb/pro/date_picker/default.time";
@@ -96,3 +96,6 @@
 @import "mdb/pro/sections/team";
 @import "mdb/pro/sections/templates";
 @import "mdb/pro/sections/social";
+
+// CUSTOM
+@import "style";

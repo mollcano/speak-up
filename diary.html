@@ -1,1 +1,383 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap Template</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="./css/mdb.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <style>
+
+        /* Carousel and pictures */
+        .view:not(.hm-zoom) {
+            overflow:visible;
+        }
+
+    </style>
+
+</head>
+
+<body class="fixed-sn mdb-skin">
+
+    <!--Double navigation-->
+    <header>
+        <!-- Sidebar navigation -->
+        <ul id="slide-out" class="side-nav fixed sn-bg-1 custom-scrollbar">
+            <!-- Logo -->
+            <li>
+                <div class="logo-wrapper waves-light">
+                    <a href="#"><img src="img/speakup_logo_hor.png" class="menu-logo img-fluid flex-center"></a>
+                </div>
+            </li>
+            <!--/. Logo -->
+            <!--Social-->
+            <li>
+                <ul class="social">
+                    <li><a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
+                    <li><a class="icons-sm pin-ic"><i class="fa fa-instagram"> </i></a></li>
+                    <li><a class="icons-sm gplus-ic"><i class="fa fa-tumblr"> </i></a></li>
+                    <li><a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+                </ul>
+            </li>
+            <!--/Social-->
+            <!--Search Form-->
+            <li>
+                <form class="search-form" role="search">
+                    <div class="form-group waves-light">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+            </li>
+            <!--/.Search Form-->
+            <!-- Side navigation links -->
+            <ul class="collapsible collapsible-accordion">
+                <li><a href="home.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-line-chart"></i> Dashboard</a>
+                </li>
+                <li><a href="diary.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-play-circle"></i> Diary</a>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-futbol-o"></i> Goals</a>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-film"></i> Challenges</a>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-tv"></i> Resources</a>
+                </li>
+                <!-- <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-newspaper-o"></i> England News<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#" class="waves-effect">English Rugby</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Country Cricket</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-thumbs-o-up"></i> Subscribe<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#" class="waves-effect">Newsletter</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Write to us!</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li> -->
+            </ul>
+            <!--/. Side navigation links -->
+            <div class="sidenav-bg mask-strong"></div>
+        </ul>
+        <!--/. Sidebar navigation -->
+
+        <!--Navbar-->
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar double-nav">
+
+            <!-- SideNav slide-out button -->
+            <div class="float-left">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <!-- Breadcrumb-->
+            <div class="breadcrumb-dn mr-auto">
+                <p class="logo-name">SpeakUp</p>
+            </div>
+
+            <ul class="nav navbar-nav nav-flex-icons top-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user"></i> <span class="hidden-sm-down">Mya</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Logout</a>
+                        <a class="dropdown-item" href="#">My account</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!--/.Navbar-->
+    </header>
+    <!--/Double navigation-->
+
+    <!--Main layout-->
+    <main>
+        <div class="container-fluid">
+
+            <!--Section: Main carousel-->
+            <section>
+              <!-- <div class="divider-new">
+                  <h2 class="h2-responsive">Record</h2>
+              </div> -->
+              <div class="row justify-content-md-center justify-content-sm-center new-recording-container">
+
+                <div class="speech-record-wrapper row">
+                  <div class="col-md-auto speech-record">
+                    <i class="fa fa-5x fa-play-circle play"></i>
+                  </div>
+                  <div class="col-md-auto textContainer">
+                    <div class="row vcenter new-recording align-middle">
+                      <h3>Record a presentation!</h3>
+                    </div>
+                  </div>
+                  <!-- <div class="col-md-auto speech-record">
+                    <i class="fa fa-5x fa-pause-circle pause"></i>
+                  </div>
+                  <div class="col-md-auto speech-record">
+                    <i class="fa fa-5x fa-stop-circle stop"></i>
+                  </div> -->
+                </div>
+
+              </div>
+            </section>
+            <!--/Section: Main carousel-->
+
+            <div class="divider-new">
+                <h3 class="h3-responsive">Mya's Diary</h3>
+            </div>
+
+            <!--Section: Magazine v.1-->
+            <section class="section magazine-section">
+
+                <!--First row-->
+                <div class="row">
+
+                  <!--Card-->
+                  <div class="card feed-card">
+
+                    <!-- Card header -->
+                    <div class="card-data">
+                        <ul>
+                            <li><i class="fa fa-calendar-o"></i>&nbsp;06/24/2017</li>
+                            <li> &nbsp; &nbsp;<i class="fa fa-hourglass-start"></i>&nbsp;1m 26s</li>
+                        </ul>
+                    </div>
+                    <!-- Card header -->
+
+                    <!--Badge-->
+                    <a class="btn-floating btn-action card-badge"><i class="fa fa-trophy card-badge"></i></a>
+
+                    <!--Card content-->
+                    <div class="card-block">
+                      <!--Title-->
+                      <h4 class="card-title">Presentation #12 - Target Goal Improvement: 33%</h4>
+                      <hr>
+                      <!--Text-->
+                      <!-- <p class="card-text">Practicing my student council class president speech.</p> -->
+                    </div>
+                    <!--/.Card content-->
+
+                    <!--Charts-->
+                    <div class="card multi">
+                        <div class="card-charts card-header" role="tab" id="headingOne-1">
+                          <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne-1" aria-expanded="true" aria-controls="collapseOne-1">
+                              Analyze this presentation
+                            </a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne-1" aria-expanded="true" aria-controls="collapseOne-1"><i class="fa fa-caret-down"></i></a>
+                          </h5>
+                        </div>
+                        <div id="collapseOne-1" class="card-charts container" role="tabpanel" aria-labelledby="headingOne-1">
+                          <div class="row chart chart-volume">
+                            <div class="chart-label col-md-2">
+                              <!-- <span> -->
+                                <i class="fa fa-volume-up fa-2x"></i>&nbsp;&nbsp;Volume
+                              <!-- </span> -->
+                            </div>
+                            <div class="col-md-10 flex-center">
+                              <canvas id="chart-volume" class="ctx-chart"></canvas>
+                            </div>
+                          </div>
+                          <hr class="chart-break">
+                          <div class="row chart chart-fillers">
+                            <div class="chart-label col-md-2">
+                              <i class="fa fa-commenting-o fa-2x"></i>&nbsp;&nbsp;Fillers
+                            </div>
+                            <div class="col-md-10 flex-center">
+                              <span class="ctx-chart fadeInUp">
+                                Hi my name is Mya and I want to help &nbsp;<span class="filler-word">  &nbsp;&nbsp;um&nbsp;&nbsp;</span> &nbsp;my&nbsp; <span class="filler-word">&nbsp;&nbsp;um&nbsp;&nbsp;</span> &nbsp;school by...
+                              </span>
+                              <!-- <canvas id="chart-fillers" class="ctx-chart"></canvas> -->
+                            </div>
+                          </div>
+                          <hr class="chart-break">
+                          <div class="row chart chart-pace">
+                            <div class="chart-label col-md-2">
+                              <i class="fa fa-fast-forward fa-2x"></i>&nbsp;&nbsp;Pace
+                            </div>
+                            <div class="col-md-10 flex-center">
+                              <canvas id="chart-pace" class="ctx-chart"></canvas>
+                            </div>
+                          </div>
+                          <hr class="chart-break">
+                          <div class="row chart chart-accessibility">
+                            <div class="chart-label col-md-2">
+                              <i class="fa fa-group fa-2x"></i>&nbsp;&nbsp;Accessibility
+                            </div>
+                            <div class="col-md-10 flex-center">
+                              <span class="ctx-chart fadeInUp">
+                                1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;<span class="accessibility-score">&nbsp;&nbsp;8&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10
+                              </span>
+                            </div>
+                          </div>
+                          <!-- <div class="card-block">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div> -->
+                        </div>
+                      </div>
+                    <!--/.Charts-->
+
+
+                  </div>
+                  <!--/.Card-->
+
+                </div>
+                <!--/First row-->
+
+            </section>
+            <!--/Section: Magazine v.1-->
+
+            <hr class="between-sections">
+
+
+        </div>
+    </main>
+    <!--/Main layout-->
+
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row wow fadeIn" data-wow-delay="0.3s">
+
+                <!--First column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title">Footer Content</h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-md-2 offset-md-1">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-md-2">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Fourth column-->
+                <div class="col-md-2">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copyright: SpeakUp </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+
+    <!-- Tooltips -->
+    <script type="text/javascript" src="./js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="./js/mdb.min.js"></script>
+
+    <!-- custom JavaScript -->
+    <script type="text/javascript" src="./js/volume-chart.js"></script>
+    <script type="text/javascript" src="./js/pace-chart.js"></script>
+
+    <script>
+        // SideNav init
+        $(".button-collapse").sideNav();
+        var el = document.querySelector('.custom-scrollbar');
+        Ps.initialize(el);
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
