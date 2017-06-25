@@ -8,6 +8,7 @@
   margin-left: 50px;
 }
 .personal-stats{
+  height: 220px;
   border: 2px solid black;
 }
 .stats-cont{
@@ -143,7 +144,27 @@
 .card-header a {
   color: #FAFAFA; }
 
+
 .red{
   background-color: #4DE0FF !important;
 }
+
+.switch-container .lever {
+  background-color: #23CE6B; }
+
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: rgba(35, 206, 107, 0.3); }
+  .switch label input[type=checkbox]:checked + .lever:after {
+    background-color: #23CE6B; }
+
+.switch label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em; }
+
+.switch {
+  margin-bottom: 15px; }
+  .switch.last {
+    margin-bottom: 120px; }
+
+
 /*# sourceMappingURL=style.css.map */
