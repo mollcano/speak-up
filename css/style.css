@@ -1,4 +1,36 @@
 /* YOUR CUSTOM STYLES */
-.mdb-skin .navbar{
- background-color: #4dd2ff;
+.welcome{
+  text-align: center !important;
+}
+.personal-stats{
+  border: 2px solid black;
+}
+.stats-cont{
+  height: 12rem;
+}
+.profile-pic{
+  border-radius: 100%;
+}
+.trophy-case{
+  border-left: 2px solid black;
+  padding-left: 2rem;
+}
+.trophy-title{
+  padding-left: 2rem;
+}
+.mastery-badge{
+  width: 4rem;
+  margin: 2px;
+  margin-left: 3rem;
+}
+.vcenter {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.badge-cont{
+  height: 8rem;
+}
+.chart-title{
+  text-align: center;
 }
