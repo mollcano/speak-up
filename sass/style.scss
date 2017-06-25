@@ -192,3 +192,10 @@ $white: #FAFAFA;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
 }
+
+.switch {
+  margin-bottom: 15px;
+  &.last {
+    margin-bottom: 120px;
+  }
+}
