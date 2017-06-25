@@ -163,3 +163,32 @@ $white: #FAFAFA;
 .card-header a {
   color: $white;
 }
+
+.switch-container {
+  // .switch {
+    // display: flex;
+    //
+    // -ms-flex-align: center;
+    // -webkit-align-items: center;
+    // -webkit-box-align: center;
+    //
+    // align-items: center;
+    // justify-content: center;
+  // }
+
+  .lever {
+    background-color: $green;
+  }
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+      background-color: rgba($green, .3);
+      &:after {
+        background-color: $green;
+      }
+  }
+
+.switch label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+}
