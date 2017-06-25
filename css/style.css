@@ -3,6 +3,10 @@
 .welcome{
   text-align: center !important;
 }
+.logo-top{
+  width: 2rem;
+  margin-left: 50px;
+}
 .personal-stats{
   border: 2px solid black;
 }
@@ -139,4 +143,7 @@
 .card-header a {
   color: #FAFAFA; }
 
+.red{
+  background-color: #4DE0FF !important;
+}
 /*# sourceMappingURL=style.css.map */

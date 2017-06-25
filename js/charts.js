@@ -16,24 +16,24 @@ $(function () {
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
         {
-            label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
+            label: "Goal",
+            fillColor: "rgba(35,206,107,0.2)",
+            strokeColor: "rgba(35,206,107,1)",
+            pointColor: "rgba(35,206,107,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 80, 81, 56, 55, 40]
+            data: [25, 25, 50, 50, 50, 50, 80]
         },
         {
-            label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
+            label: "Actual",
+            fillColor: "rgba(67,58,63,0.2)",
+            strokeColor: "rgba(77,224,182,1)",
+            pointColor: "rgba(77,224,182,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
+            data: [6, 25, 30, 36, 40, 50, 60]
         }
         ]
     };
@@ -52,20 +52,20 @@ var data = {
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
         {
-            label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.5)",
-            strokeColor: "rgba(220,220,220,0.8)",
-            highlightFill: "rgba(220,220,220,0.75)",
-            highlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 80, 81, 56, 55, 40]
+            label: "Goal",
+            fillColor: "rgba(77,214,182,0.5)",
+            strokeColor: "rgba(77,214,1820.8)",
+            highlightFill: "rgba(77,214,182,0.5)",
+            highlightStroke: "rgba(77,214,1820.8)",
+            data: [50, 50, 50, 30, 30, 10, 10]
         },
         {
-            label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.5)",
-            strokeColor: "rgba(151,187,205,0.8)",
-            highlightFill: "rgba(151,187,205,0.75)",
-            highlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
+            label: "Actual",
+            fillColor: "rgba(67,58,63,0.75)",
+            strokeColor: "rgba(67,58,63,205,1)",
+            highlightFill: "rgba(67,58,63,0.75)",
+            highlightStroke: "rgba(67,58,63,205,1)",
+            data: [80, 60, 50, 40, 32, 20, 17]
         }
     ]
 };
@@ -82,33 +82,33 @@ $(function () {
   var data = [
       {
           value: 100,
-          color:"#F7464A",
-          highlight: "#FF5A5E",
-          label: "Um"
+          color:"rgba(77,214,182,1)",
+          highlight: "rgba(77,214,182,.5)",
+          label: "5"
       },
       {
           value: 75,
-          color: "#46BFBD",
-          highlight: "#5AD3D1",
-          label: "Uh"
+          color: "rgba(35,206,107,1)",
+          highlight: "rgba(35,206,107,1)",
+          label: "4"
       },
       {
           value: 47,
-          color: "#FDB45C",
-          highlight: "#FFC870",
-          label: "So"
+          color: "#F9D1D1",
+          highlight: "#FAFAFA",
+          label: "3"
       },
       {
           value: 15,
-          color: "#800000",
-          highlight: "#800000",
-          label: "Basically"
+          color: "rgba(77,224,182,1)",
+          highlight: "rgba(77,224,182,.5)",
+          label: "7"
       },
       {
           value: 30,
-          color: "#FF5733",
-          highlight: "#FF5733",
-          label: "Like"
+          color: "rgba(67,58,63,1)",
+          highlight: "rgba(67,58,63,1)",
+          label: "8"
       }
   ]
 var option = {
@@ -116,7 +116,7 @@ responsive: true,
 };
 
 // Get the context of the canvas element we want to select
-var ctx = document.getElementById("fillers-used").getContext('2d');
+var ctx = document.getElementById("aa").getContext('2d');
 
 var myPieChart = new Chart(ctx).Pie(data,option); //'Line' defines type of the chart.
 })
@@ -126,24 +126,24 @@ $(function () {
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
         {
-            label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
+            label: "Goal",
+            fillColor: "rgba(35,206,107,0.2)",
+            strokeColor: "rgba(35,206,107,1)",
+            pointColor: "rgba(35,206,107,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 80, 81, 56, 55, 40]
+            data: [25, 25, 50, 50, 50, 50, 80]
         },
         {
-            label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
+            label: "Actual",
+            fillColor: "rgba(67,58,63,0.2)",
+            strokeColor: "rgba(77,224,182,1)",
+            pointColor: "rgba(77,224,182,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
+            data: [6, 25, 30, 36, 40, 50, 60]
         }
         ]
     };
@@ -162,20 +162,20 @@ var data = {
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
         {
-            label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.5)",
-            strokeColor: "rgba(220,220,220,0.8)",
-            highlightFill: "rgba(220,220,220,0.75)",
-            highlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 80, 81, 56, 55, 40]
+            label: "Goal",
+            fillColor: "rgba(77,214,182,0.5)",
+            strokeColor: "rgba(77,214,1820.8)",
+            highlightFill: "rgba(77,214,182,0.5)",
+            highlightStroke: "rgba(77,214,1820.8)",
+            data: [50, 50, 50, 30, 30, 10, 10]
         },
         {
-            label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.5)",
-            strokeColor: "rgba(151,187,205,0.8)",
-            highlightFill: "rgba(151,187,205,0.75)",
-            highlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
+            label: "Actual",
+            fillColor: "rgba(135,206,107,0.5)",
+            strokeColor: "rgba(135,206,107,0.8)",
+            highlightFill: "rgba(135,206,107,0.5)",
+            highlightStroke: "rgba(135,206,107,0.8)",
+            data: [80, 60, 50, 40, 32, 20, 17]
         }
     ]
 };
@@ -192,33 +192,33 @@ $(function () {
   var data = [
       {
           value: 100,
-          color:"#F7464A",
+          color:"#23CD6B",
           highlight: "#FF5A5E",
-          label: "Um"
+          label: "5"
       },
       {
           value: 75,
-          color: "#46BFBD",
+          color: "#4DD6B6",
           highlight: "#5AD3D1",
-          label: "Uh"
+          label: "4"
       },
       {
           value: 47,
-          color: "#FDB45C",
+          color: "#F9D1D1",
           highlight: "#FFC870",
-          label: "So"
+          label: "3"
       },
       {
           value: 15,
-          color: "#800000",
+          color: "#433A3F",
           highlight: "#800000",
-          label: "Basically"
+          label: "7"
       },
       {
           value: 30,
-          color: "#FF5733",
+          color: "#4DE0FF",
           highlight: "#FF5733",
-          label: "Like"
+          label: "8"
       }
   ]
 var option = {
@@ -226,10 +226,11 @@ responsive: true,
 };
 
 // Get the context of the canvas element we want to select
-var ctx = document.getElementById("fillers-used2").getContext('2d');
+var ctx = document.getElementById("aa2").getContext('2d');
 
 var myPieChart = new Chart(ctx).Pie(data,option); //'Line' defines type of the chart.
 })
+
 
 
 
@@ -238,25 +239,16 @@ $(function () {
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
         {
-            label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
+            label: "Words Per Minute",
+            fillColor: "rgba(77,217,182,0.2)",
+            strokeColor: "rgba(77,217,182,1)",
+            pointColor: "rgba(67,58,63,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 80, 81, 56, 55, 40]
-        },
-        {
-            label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
-            pointStrokeColor: "#fff",
-            pointHighlightFill: "#fff",
-            pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
+            data: [65, 59, 80, 81, 56, 55, 60]
         }
+
         ]
     };
 
@@ -274,21 +266,14 @@ var data = {
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
         {
-            label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.5)",
-            strokeColor: "rgba(220,220,220,0.8)",
-            highlightFill: "rgba(220,220,220,0.75)",
-            highlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 80, 81, 56, 55, 40]
+            label: "Number of Pauses",
+            fillColor: "rgba(35,206,107,0.5)",
+            strokeColor: "rgba(35,206,107,0.8)",
+            highlightFill: "rgba(35,206,107,0.75)",
+            highlightStroke: "rgba(35,206,107,1)",
+            data: [3, 4, 8, 9, 4, 8, 13]
         },
-        {
-            label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.5)",
-            strokeColor: "rgba(151,187,205,0.8)",
-            highlightFill: "rgba(151,187,205,0.75)",
-            highlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
-        }
+
     ]
 };
 var option = {
@@ -303,33 +288,33 @@ var myBarChart = new Chart(ctx).Bar(data, option); //'Line' defines type of the 
 $(function () {
   var data = [
       {
-          value: 100,
-          color:"#F7464A",
-          highlight: "#FF5A5E",
+          value: 80,
+          color:"rgba(35,206,107,1)",
+          highlight: "rgba(35,206,107,.5)",
           label: "Um"
       },
       {
-          value: 75,
-          color: "#46BFBD",
-          highlight: "#5AD3D1",
+          value: 90,
+          color: "rgba(77,217,182,1)",
+          highlight: "rgba(77,217,182,.5)",
           label: "Uh"
       },
       {
-          value: 47,
-          color: "#FDB45C",
-          highlight: "#FFC870",
+          value: 78,
+          color: "rgba(77,224,25,1)",
+          highlight: "rgba(77,224,25,.5)",
           label: "So"
       },
       {
-          value: 15,
-          color: "#800000",
-          highlight: "#800000",
+          value: 18,
+          color: "rgba(67,58,63,1)",
+          highlight: "rgba(67,58,63,.5)",
           label: "Basically"
       },
       {
-          value: 30,
-          color: "#FF5733",
-          highlight: "#FF5733",
+          value: 45,
+          color: "#F9D1D1",
+          highlight: "#FAFAFA",
           label: "Like"
       }
   ]
@@ -338,7 +323,7 @@ responsive: true,
 };
 
 // Get the context of the canvas element we want to select
-var ctx = document.getElementById("syllabels").getContext('2d');
+var ctx = document.getElementById("fillers-used").getContext('2d');
 
 var myPieChart = new Chart(ctx).Pie(data,option); //'Line' defines type of the chart.
 })
