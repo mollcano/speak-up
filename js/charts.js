@@ -7,7 +7,7 @@
 
  $(".nav-link").click(function(){
    console.log("hit");
-   setTimeout(fireRefreshEventOnWindow, 110)
+   setTimeout(fireRefreshEventOnWindow, 150)
  })
 
 
