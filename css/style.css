@@ -166,5 +166,28 @@
   .switch.last {
     margin-bottom: 120px; }
 
+.personal-stats .fa-long-arrow-up {
+  color: #4DE0FF;
+}
+
+.personal-stats .fa-long-arrow-down {
+  color: #4DD6B6;
+}
+
+.personal-stats .fa-bolt {
+  color: #23CE6B;
+}
+
+.personal-stats .fa-group {
+  color: #4DE0FF;
+}
+
+.personal-stats .fa-futbol-o {
+  color: #4DD6B6;
+}
+
+.personal-stats .fa-microphone {
+  color: #23CE6B;
+}
 
 /*# sourceMappingURL=style.css.map */
