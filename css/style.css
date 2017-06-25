@@ -21,6 +21,7 @@
 .mastery-badge{
   width: 4rem;
   margin: 2px;
+  margin-left: 3rem;
 }
 .vcenter {
     display: flex;
@@ -29,4 +30,7 @@
 }
 .badge-cont{
   height: 8rem;
+}
+.chart-title{
+  text-align: center;
 }
