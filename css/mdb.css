@@ -1,4 +1,4 @@
-#4dccff/*!
+/*!
  * Material Design for Bootstrap 4
  * Version: MDB PRO 4.3.2
  *
@@ -11322,7 +11322,8 @@ button.toast-close-button {
       /* please don't change 'position' */
       background-color: #aaa;
       border-radius: 6px;
-      transition: background-color .2s linear, height .2s linear, width .2s ease-in-out, border-radius .2s ease-in-out;
+      transition: background-color .2s linear, height .2s linear, width .2s ease-in-out,
+ border-radius .2s ease-in-out;
       bottom: 2px;
       /* there must be 'bottom' for ps-scrollbar-x */
       height: 6px; }
@@ -11342,7 +11343,8 @@ button.toast-close-button {
       /* please don't change 'position' */
       background-color: #aaa;
       border-radius: 6px;
-      transition: background-color .2s linear, height .2s linear, width .2s ease-in-out, border-radius .2s ease-in-out;
+      transition: background-color .2s linear, height .2s linear, width .2s ease-in-out,
+ border-radius .2s ease-in-out;
       right: 2px;
       /* there must be 'right' for ps-scrollbar-y */
       width: 6px; }
@@ -12671,13 +12673,13 @@ button.toast-close-button {
   .mdb-skin .primary-color, .mdb-skin .stepper li.active a .circle, .stepper li.active a .mdb-skin .circle, .mdb-skin .stepper li.completed a .circle, .stepper li.completed a .mdb-skin .circle {
     background-color: #33b5e5 !important; }
   .mdb-skin .navbar {
-    background-color: #4dccff; }
+    background-color: #2196F3; }
     .mdb-skin .navbar .navbar-nav .nav-item .dropdown-menu a:hover, .mdb-skin .navbar .navbar-nav .nav-item .dropdown-menu a:focus, .mdb-skin .navbar .navbar-nav .nav-item .dropdown-menu a:active {
-      background-color: #4dccff; }
+      background-color: #2196F3; }
   .mdb-skin .page-footer {
-    background-color: #4dccff; }
+    background-color: #2196F3; }
   .mdb-skin .side-nav {
-    background-color: #4dccff; }
+    background-color: #2196F3; }
     .mdb-skin .side-nav .logo-wrapper > div {
       background-color: transparent !important; }
     .mdb-skin .side-nav .sn-avatar-wrapper img {
@@ -12711,7 +12713,7 @@ button.toast-close-button {
     .mdb-skin .side-nav .sidenav-bg.mask-slight:after {
       background: rgba(9, 24, 39, 0.5); }
   .mdb-skin .navbar .navbar-nav .dropdown .dropdown-primary .dropdown-item:hover {
-    background-color: #4dccff; }
+    background-color: #2196F3; }
   .mdb-skin .btn-primary {
     background: #33b5e5; }
     .mdb-skin .btn-primary:hover, .mdb-skin .btn-primary:focus {
@@ -12759,7 +12761,7 @@ button.toast-close-button {
   .mdb-skin .dropdown-content li:not(.disabled) span {
     color: #33b5e5; }
   .mdb-skin .top-nav-collapse {
-    background-color: #4dccff; }
+    background-color: #2196F3; }
   .mdb-skin .carousel-multi-item .controls-top > a,
   .mdb-skin .carousel-multi-item .carousel-indicators li,
   .mdb-skin .carousel-multi-item .carousel-indicators li.active {

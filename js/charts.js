@@ -18,8 +18,8 @@ $(function () {
         {
             label: "Goal",
             fillColor: "rgba(35,206,107,0.2)",
-            strokeColor: "rgba(35,206,107,1)",
-            pointColor: "rgba(35,206,107,1)",
+            strokeColor: "#2196F3",
+            pointColor: "#2196F3",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
@@ -28,8 +28,8 @@ $(function () {
         {
             label: "Actual",
             fillColor: "rgba(67,58,63,0.2)",
-            strokeColor: "rgba(77,224,182,1)",
-            pointColor: "rgba(77,224,182,1)",
+            strokeColor: "#63b5f6",
+            pointColor: "#63b5f6",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
@@ -88,8 +88,8 @@ $(function () {
       },
       {
           value: 75,
-          color: "rgba(35,206,107,1)",
-          highlight: "rgba(35,206,107,1)",
+          color: "#2196F3",
+          highlight: "#2196F3",
           label: "4"
       },
       {
@@ -100,7 +100,7 @@ $(function () {
       },
       {
           value: 15,
-          color: "rgba(77,224,182,1)",
+          color: "#63b5f6",
           highlight: "rgba(77,224,182,.5)",
           label: "7"
       },
@@ -128,8 +128,8 @@ $(function () {
         {
             label: "Goal",
             fillColor: "rgba(35,206,107,0.2)",
-            strokeColor: "rgba(35,206,107,1)",
-            pointColor: "rgba(35,206,107,1)",
+            strokeColor: "#2196F3",
+            pointColor: "#2196F3",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
@@ -138,8 +138,8 @@ $(function () {
         {
             label: "Actual",
             fillColor: "rgba(67,58,63,0.2)",
-            strokeColor: "rgba(77,224,182,1)",
-            pointColor: "rgba(77,224,182,1)",
+            strokeColor: "#63b5f6",
+            pointColor: "#63b5f6",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
@@ -198,7 +198,7 @@ $(function () {
       },
       {
           value: 75,
-          color: "#4DD6B6",
+          color: "#ffab40",
           highlight: "#5AD3D1",
           label: "4"
       },
@@ -216,7 +216,7 @@ $(function () {
       },
       {
           value: 30,
-          color: "#4DE0FF",
+          color: "#1E88E5",
           highlight: "#FF5733",
           label: "8"
       }
@@ -270,7 +270,7 @@ var data = {
             fillColor: "rgba(35,206,107,0.5)",
             strokeColor: "rgba(35,206,107,0.8)",
             highlightFill: "rgba(35,206,107,0.75)",
-            highlightStroke: "rgba(35,206,107,1)",
+            highlightStroke: "#2196F3",
             data: [3, 4, 8, 9, 4, 8, 13]
         },
 
@@ -289,7 +289,7 @@ $(function () {
   var data = [
       {
           value: 80,
-          color:"rgba(35,206,107,1)",
+          color:"#2196F3",
           highlight: "rgba(35,206,107,.5)",
           label: "Um"
       },
@@ -302,7 +302,7 @@ $(function () {
       {
           value: 78,
           color: "rgba(77,224,25,1)",
-          highlight: "rgba(77,224,25,.5)",
+          highlight: "rgba(38,112,12,.5)",
           label: "So"
       },
       {

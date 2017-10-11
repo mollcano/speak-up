@@ -1,6 +1,6 @@
 $green: #23CE6B;
-$teal: #4DD6B6;
-$blue: #4DE0FF;
+$teal: #ffab40;
+$blue: #1E88E5;
 $dark: #433A3F;
 $white: #FAFAFA;
 
@@ -14,19 +14,19 @@ $white: #FAFAFA;
 
   // &:after {
   //   content: "SpeakUp";
-  //   font-family: 'Open Sans', sans-serif;
+  //   font-family: 'Roboto', sans-serif;
   //   color: white;
   // }
 }
 
 .logo-wrapper::after {
   content: "SpeakUp";
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
 .logo-name {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .new-recording-container {
@@ -116,7 +116,7 @@ $white: #FAFAFA;
 	align-items: center;
   justify-content: center;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.1em;
   color: $teal;
   i {
@@ -143,7 +143,7 @@ $white: #FAFAFA;
 	align-items: center;
   justify-content: center;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   .filler-word {
     color: #F7464A;

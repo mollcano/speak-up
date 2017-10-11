@@ -57,7 +57,7 @@
   font-family: 'Open Sans', sans-serif; }
 
 .new-recording-container {
-  background-color: #4DD6B6; }
+  background-color: #ffab40; }
 
 .speech-record {
   padding: 10px;
@@ -68,7 +68,7 @@
   .speech-record .play {
     color: #FAFAFA; }
   .speech-record .pause {
-    color: #4DE0FF; }
+    color: #1E88E5; }
   .speech-record .stop {
     color: #433A3F; }
 
@@ -102,7 +102,7 @@
 
 .card-charts.card-header {
   color: #FAFAFA;
-  background-color: #4de0ff; }
+  background-color: #1E88E5; }
 
 .chart.row .chart-label {
   display: -ms-flexbox;
@@ -115,7 +115,7 @@
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
-  color: #4DD6B6; }
+  color: #ffab40; }
 
 .ctx-chart {
   height: 100px !important;
@@ -146,7 +146,7 @@
 
 
 .red{
-  background-color: #4DE0FF !important;
+  background-color: #1E88E5 !important;
 }
 
 .switch-container .lever {
@@ -167,11 +167,11 @@
     margin-bottom: 120px; }
 
 .personal-stats .fa-long-arrow-up {
-  color: #4DE0FF;
+  color: #1E88E5;
 }
 
 .personal-stats .fa-long-arrow-down {
-  color: #4DD6B6;
+  color: #ffab40;
 }
 
 .personal-stats .fa-bolt {
@@ -179,11 +179,11 @@
 }
 
 .personal-stats .fa-group {
-  color: #4DE0FF;
+  color: #1E88E5;
 }
 
 .personal-stats .fa-futbol-o {
-  color: #4DD6B6;
+  color: #ffab40;
 }
 
 .personal-stats .fa-microphone {
